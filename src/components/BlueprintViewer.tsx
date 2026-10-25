@@ -266,7 +266,7 @@ export const BlueprintViewer: React.FC<BlueprintViewerProps> = ({
                               x="205"
                               y="145"
                             >
-                              GRAND SALON (9.2m × 6.4m)
+                              GRAND SALON
                             </text>
                             <rect
                               fill="#FCDEB8"
@@ -354,7 +354,7 @@ export const BlueprintViewer: React.FC<BlueprintViewerProps> = ({
                               x="640"
                               y="265"
                             >
-                              12.0m × 3.5m · ZERO-EDGE
+                              ZERO-EDGE REFLECTING POOL
                             </text>
                             <circle
                               cx="430"
@@ -391,7 +391,7 @@ export const BlueprintViewer: React.FC<BlueprintViewerProps> = ({
                               x="305"
                               y="44"
                             >
-                              21,400 MM INTERIOR AXIS
+                              PRIMARY CIRCULATION AXIS
                             </text>
                           </svg>
                         )}
@@ -474,7 +474,7 @@ export const BlueprintViewer: React.FC<BlueprintViewerProps> = ({
                               x="515"
                               y="150"
                             >
-                              WINE CELLAR (450 BTL)
+                              CURATED WINE CELLAR
                             </text>
                             <rect
                               fill="#FCDEB8"
@@ -492,7 +492,7 @@ export const BlueprintViewer: React.FC<BlueprintViewerProps> = ({
                               x="260"
                               y="360"
                             >
-                              GALLERY CORRIDOR &amp; 5 BEDROOM SUITES
+                              GALLERY CORRIDOR &amp; PRIVATE BEDROOM SUITES
                             </text>
                             <rect
                               height="340"
@@ -530,7 +530,7 @@ export const BlueprintViewer: React.FC<BlueprintViewerProps> = ({
                               x="400"
                               y="38"
                             >
-                              27,800 MM MONOLITHIC ELEVATION
+                              MONOLITHIC FACADE ELEVATION
                             </text>
                           </svg>
                         )}
@@ -593,7 +593,7 @@ export const BlueprintViewer: React.FC<BlueprintViewerProps> = ({
                               x="620"
                               y="260"
                             >
-                              2,100 SQ. FT. CANTILEVER
+                              HORIZON SKY CANTILEVER
                             </text>
                             <rect
                               fill="#FCDEB8"
@@ -810,7 +810,7 @@ export const BlueprintViewer: React.FC<BlueprintViewerProps> = ({
                       x="205"
                       y="145"
                     >
-                      GRAND SALON (9.2m × 6.4m)
+                      GRAND SALON
                     </text>
                     <rect
                       fill="#705B3D"
@@ -829,7 +829,7 @@ export const BlueprintViewer: React.FC<BlueprintViewerProps> = ({
                       x="640"
                       y="240"
                     >
-                      REFLECTING LAP POOL (12.0m × 3.5m)
+                      REFLECTING LAP POOL
                     </text>
                   </svg>
                 )}
@@ -864,7 +864,7 @@ export const BlueprintViewer: React.FC<BlueprintViewerProps> = ({
                       x="260"
                       y="175"
                     >
-                      7.2M DUAL-HEIGHT SALON
+                      DOUBLE-HEIGHT CENTRAL SALON
                     </text>
                     <text
                       fill="#DFDFC2"
@@ -874,7 +874,7 @@ export const BlueprintViewer: React.FC<BlueprintViewerProps> = ({
                       x="515"
                       y="150"
                     >
-                      WINE CELLAR (450 BTL)
+                      CURATED WINE CELLAR
                     </text>
                   </svg>
                 )}
@@ -918,7 +918,7 @@ export const BlueprintViewer: React.FC<BlueprintViewerProps> = ({
                       x="620"
                       y="235"
                     >
-                      SKY DECK &amp; POOL (2,100 SQ. FT.)
+                      CANTILEVERED SKY DECK &amp; POOL
                     </text>
                   </svg>
                 )}
