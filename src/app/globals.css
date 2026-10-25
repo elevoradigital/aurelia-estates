@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+    color-scheme: light;
+  }
+  
+  body {
+    background-color: #fcf9f2;
+    color: #1c1c18;
+    margin: 0;
+    padding: 0;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Accessible focus indicators for keyboard navigation */
+  :focus-visible {
+    outline: 2px solid #A38A69;
+    outline-offset: 3px;
+  }
+
+  /* Selection styling matching brand palette */
+  ::selection {
+    background-color: #fcdeb8;
+    color: #776143;
+  }
+}
+
+/* Custom scrollbar matching architectural aesthetic */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1eee7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c5c7c1;
+  border-radius: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #705b3d;
+}
+
+/* Drafting blueprint grid utility */
+.cad-grid-pattern {
+  background-image: linear-gradient(rgba(163, 138, 105, 0.15) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(163, 138, 105, 0.15) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.ambient-dot-grid {
+  background-image: radial-gradient(#20211f 1px, transparent 1px);
+  background-size: 32px 32px;
+}
