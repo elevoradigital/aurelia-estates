@@ -135,11 +135,10 @@ export const Footer: React.FC = () => {
           {/* Bottom Copyright and Concept Notice */}
           <div className="pt-space-md border-t border-surface-variant/60 flex flex-col md:flex-row justify-between items-start md:items-center gap-space-sm text-[11px]">
             <p className="font-mono text-label-technical uppercase tracking-[0.12em] text-on-surface-variant">
-              AURELIA ESTATES IS A CONCEPT PROJECT PRESENTED BY ELEVORA. PROPERTY
-              DETAILS ARE ILLUSTRATIVE.
+              AURELIA ESTATES IS AN ARCHITECTURAL CONCEPT PORTFOLIO PROJECT DEVELOPED BY ELEVORA. PROPERTY DETAILS AND DIMENSIONS ARE ARTISTICALLY ILLUSTRATIVE.
             </p>
             <p className="font-mono text-label-technical uppercase tracking-[0.12em] text-on-surface-variant">
-              © 2025 ELEVORA ARCHITECTURAL REALTY. ALL RIGHTS RESERVED.
+              © 2026 ELEVORA. DIGITAL CONCEPT &amp; WEB EXPERIENCE STUDY. ALL RIGHTS RESERVED.
             </p>
           </div>
         </div>
@@ -171,24 +170,22 @@ export const Footer: React.FC = () => {
                   Governance Protocol
                 </span>
                 <h3 className="font-serif text-2xl text-primary mb-4 font-normal">
-                  Privacy Policy &amp; Non-Disclosure
+                  Privacy Notice &amp; Demonstration Data Handling
                 </h3>
                 <div className="font-sans text-sm text-on-surface-variant space-y-3 leading-relaxed">
                   <p>
-                    Aurelia Estates operates under absolute non-disclosure
-                    standards for all private residential clientele and family
-                    offices.
+                    Aurelia Estates is a creative digital portfolio concept
+                    presented by Elevora.
                   </p>
                   <p>
-                    Inquiry information collected through this digital portal is
-                    utilized strictly to coordinate one-on-one architectural
-                    consultations. We never sell, exchange, or publicly register
-                    prospective client records.
+                    Any contact information submitted through this website
+                    demonstration is handled responsibly and used solely to
+                    demonstrate the platform&apos;s interactive inquiry flow or
+                    respond to creative portfolio inquiries.
                   </p>
                   <p>
-                    All communications are encrypted end-to-end via secure
-                    channels in compliance with global data sovereignty
-                    standards.
+                    We do not sell, rent, or distribute submitted contact
+                    details to commercial third-party marketing services.
                   </p>
                 </div>
               </div>
@@ -205,14 +202,21 @@ export const Footer: React.FC = () => {
                 <div className="font-sans text-sm text-on-surface-variant space-y-3 leading-relaxed">
                   <p>
                     Aurelia Estates is an architectural exploration and creative
-                    portfolio concept presented by Elevora.
+                    portfolio concept created by Elevora to showcase luxury web
+                    design, motion craftsmanship, and spatial storytelling.
+                  </p>
+                  <p>
+                    Elevora is a digital growth and design studio. Elevora is
+                    not a registered real estate broker, builder, contractor, or
+                    property developer, and does not operate or construct physical
+                    residences.
                   </p>
                   <p>
                     All renderings, massing studies, floor plans, dimensions,
-                    materials, square footage, and pricing references are
-                    artistic visualizations and conceptual illustrations. They do
-                    not constitute a binding commercial offer or approved
-                    statutory development prospectus.
+                    materials, square footage references, and geographic studies
+                    are artistic visualizations and conceptual illustrations. They
+                    do not constitute a commercial offer, investment prospectus, or
+                    approved development proposal.
                   </p>
                 </div>
               </div>
@@ -224,19 +228,19 @@ export const Footer: React.FC = () => {
                   Technical Standard
                 </span>
                 <h3 className="font-serif text-2xl text-primary mb-4 font-normal">
-                  Architectural Specifications Standard
+                  Architectural Specifications Framework
                 </h3>
                 <div className="font-sans text-sm text-on-surface-variant space-y-3 leading-relaxed">
                   <p>
-                    Structural design utilizes post-tensioned limestone slabs,
-                    unreinforced solid masonry infill, and thermally isolated
-                    double-envelope facades.
+                    The structural design framework explores the integration of
+                    post-tensioned stone planes, deep solar shading cantilevers,
+                    and expansive acoustic glass curtain walls.
                   </p>
                   <p>
-                    Glazing specifications require low-iron crystal clarity with
-                    spectrally selective Low-E coatings (U-factor &lt; 0.28, SHGC
-                    &lt; 0.22) and acoustic STC ratings exceeding 52 dB across
-                    ocean-facing facades.
+                    All architectural parameters, floor areas, spatial
+                    proportions, and material compositions presented throughout
+                    this portfolio are conceptual design studies intended to
+                    illustrate high-end residential form and atmospheric lighting.
                   </p>
                 </div>
               </div>
@@ -245,17 +249,21 @@ export const Footer: React.FC = () => {
             {activeModal === "protocol" && (
               <div>
                 <span className="font-mono text-xs uppercase tracking-widest text-secondary block mb-1">
-                  Private Client Standard
+                  Studio Inquiry Standard
                 </span>
                 <h3 className="font-serif text-2xl text-primary mb-4 font-normal">
-                  Advisory Protocol
+                  Digital Studio Inquiries
                 </h3>
                 <div className="font-sans text-sm text-on-surface-variant space-y-3 leading-relaxed">
                   <p>
-                    Consultations are held in private salons or on-site by
-                    appointment only. Each principal client is assigned a
-                    dedicated Elevora architectural director throughout the
-                    spatial customization and bespoke detailing phase.
+                    This digital experience was crafted by Elevora to demonstrate
+                    award-winning UI/UX design, interactive CAD floor plan
+                    interfaces, and quiet luxury motion systems.
+                  </p>
+                  <p>
+                    For design collaborations, web development commissions, or
+                    creative consultations, please submit an inquiry through our
+                    consultation form.
                   </p>
                 </div>
               </div>

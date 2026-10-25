@@ -118,15 +118,14 @@ export const PrivateViewingForm: React.FC<PrivateViewingFormProps> = ({
             {/* Form Header */}
             <div className="text-center space-y-space-xs mb-space-xl">
               <span className="font-mono text-label-technical text-secondary uppercase tracking-[0.24em] block text-xs">
-                By Private Appointment Only
+                Concept Consultation &amp; Inquiry
               </span>
               <h2 className="font-serif text-3xl lg:text-headline-lg text-primary tracking-tight font-normal">
-                Your Next Address Starts Here
+                Explore The Architectural Concept
               </h2>
               <p className="font-sans text-body-md text-on-surface-variant max-w-xl mx-auto leading-relaxed">
-                Discover the residences in greater detail. Share your spatial
-                preferences and arrange an exclusive private conversation with the
-                principal architectural advisory team.
+                Aurelia Estates is a luxury architectural portfolio concept developed by Elevora.
+                Share your design inquiries, discuss bespoke digital spatial experiences, or arrange a conversation with our creative team.
               </p>
             </div>
 
@@ -148,14 +147,14 @@ export const PrivateViewingForm: React.FC<PrivateViewingFormProps> = ({
                 </p>
                 <p className="font-sans text-body-sm opacity-95 max-w-lg mx-auto leading-relaxed">
                   {deliveryInfo?.emailDispatched
-                    ? "Your consultation specifications have been recorded and dispatched directly to the Elevora advisory team inbox."
-                    : "Your consultation specifications have been durably stored in the server inquiry registry for review by an Elevora client director."}
+                    ? "Your consultation inquiry has been recorded and transmitted directly to the Elevora design studio."
+                    : "Your inquiry has been recorded in the portfolio demonstration ledger. Thank you for exploring the Aurelia Estates interactive experience."}
                 </p>
 
                 {/* Honest Persistence & Delivery Disclosure */}
                 {deliveryInfo && !deliveryInfo.emailConfigured && (
                   <div className="p-2.5 bg-black/20 border border-secondary-container/30 text-[11px] font-mono tracking-wider text-secondary-container max-w-lg mx-auto">
-                    PERSISTENCE: Durably archived in server storage · RESEND_API_KEY transactional email pending host configuration.
+                    DEMONSTRATION STATUS: Logged in portfolio registry · (Transactional email pending host environment configuration).
                   </div>
                 )}
 
@@ -328,10 +327,10 @@ export const PrivateViewingForm: React.FC<PrivateViewingFormProps> = ({
                       onChange={(e) => setTypology(e.target.value)}
                       className="w-full bg-surface border border-surface-variant p-space-sm font-sans text-body-md text-primary focus:outline-none focus:border-primary transition-colors"
                     >
-                      <option value="garden">01 — Garden Residence (5,400 sq.ft)</option>
-                      <option value="signature">02 — Signature Residence (6,800 sq.ft)</option>
-                      <option value="sky">03 — Sky Penthouse Duplex (8,200 sq.ft)</option>
-                      <option value="undecided">Undecided / Architectural Consultation</option>
+                      <option value="garden">01 — Garden Residence (Concept Study)</option>
+                      <option value="signature">02 — Signature Residence (Flagship Study)</option>
+                      <option value="sky">03 — Sky Penthouse Duplex (Panoramic Study)</option>
+                      <option value="undecided">Undecided / Architectural Design Inquiries</option>
                     </select>
                   </div>
                 </div>

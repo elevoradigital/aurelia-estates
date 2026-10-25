@@ -67,7 +67,7 @@ export const BlueprintViewer: React.FC<BlueprintViewerProps> = ({
             </div>
             <div className="flex items-center gap-space-xs text-outline-variant font-mono text-label-technical uppercase tracking-widest text-xs">
               <Compass className="w-4 h-4 text-secondary" />
-              <span>DIMENSIONAL ACCURACY: ARCH-D · SCALE 1:100</span>
+              <span>ILLUSTRATIVE CAD STUDY · CONCEPTUAL SCALE</span>
             </div>
           </div>
         </BlurFade>
@@ -173,10 +173,10 @@ export const BlueprintViewer: React.FC<BlueprintViewerProps> = ({
 
                   {/* Technical Calipers corner markers */}
                   <div className="absolute top-3 left-3 font-mono text-[10px] text-secondary tracking-widest uppercase">
-                    CAD_REV: 04.2 / SCALE 1:100 / NORTH ↑
+                    CONCEPT_CAD: REV 04 / STUDY SCALE / NORTH ↑
                   </div>
                   <div className="absolute top-3 right-3 font-mono text-[10px] text-outline tracking-widest uppercase">
-                    FOLIO: {currentResidence.id.toUpperCase()}-2025
+                    FOLIO: {currentResidence.id.toUpperCase()}-2026
                   </div>
                   <div className="absolute bottom-3 left-3 font-mono text-[10px] text-outline tracking-widest uppercase">
                     COROMANDEL STRUCTURAL SYSTEM · POST-TENSIONED LIMESTONE
@@ -442,7 +442,7 @@ export const BlueprintViewer: React.FC<BlueprintViewerProps> = ({
                               x="260"
                               y="175"
                             >
-                              7.2M DUAL-HEIGHT SALON
+                              DOUBLE-HEIGHT CENTRAL SALON
                             </text>
                             <text
                               fill="#C5C7C1"
@@ -648,7 +648,7 @@ export const BlueprintViewer: React.FC<BlueprintViewerProps> = ({
                               x="405"
                               y="52"
                             >
-                              32,000 MM CROWN CANTILEVER SPAN
+                              STRUCTURAL CROWN CANTILEVER
                             </text>
                           </svg>
                         )}
@@ -664,7 +664,7 @@ export const BlueprintViewer: React.FC<BlueprintViewerProps> = ({
               <div>
                 <div className="flex items-center justify-between pb-space-sm border-b border-surface-tint/40 mb-space-md">
                   <span className="font-mono text-label-technical text-secondary uppercase tracking-widest text-xs">
-                    SCHEDULE OF SPACES
+                    SCHEDULE OF SPACES (ILLUSTRATIVE)
                   </span>
                   <span className="font-mono text-label-technical text-outline uppercase text-xs">
                     {currentResidence.level}
@@ -703,13 +703,16 @@ export const BlueprintViewer: React.FC<BlueprintViewerProps> = ({
                       {currentResidence.ceilingClearance}
                     </span>
                   </div>
-                  <div className="flex justify-between py-2">
+                  <div className="flex justify-between py-2 border-b border-surface-tint/20">
                     <span className="text-outline">ORIENTATIONAL ANGLE</span>
                     <span className="text-secondary font-semibold">
                       {currentResidence.orientation}
                     </span>
                   </div>
                 </div>
+                <p className="font-mono text-[10px] text-outline uppercase tracking-wider pt-2">
+                  * Dimensions and areal metrics represent conceptual portfolio studies.
+                </p>
               </div>
 
               <div className="pt-space-lg">

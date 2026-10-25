@@ -43,16 +43,14 @@ export const Hero: React.FC = () => {
             <div className="flex items-center gap-space-xs flex-wrap min-w-0">
               <span className="w-2 h-2 rounded-full bg-secondary inline-block animate-pulse shrink-0" />
               <span className="font-mono text-[9px] sm:text-label-technical tracking-[0.10em] sm:tracking-[0.24em] text-on-surface-variant uppercase break-words">
-                Aurelia Estates Private Residences · Folio 2025
+                Aurelia Estates Architectural Concept · Folio 2026
               </span>
             </div>
             <div className="flex items-center gap-space-xs flex-wrap text-secondary font-mono text-[9px] sm:text-label-technical tracking-[0.08em] sm:tracking-[0.16em] min-w-0">
               <span className="flex items-center gap-1 shrink-0">
                 <Compass className="w-3.5 h-3.5 inline text-secondary shrink-0" />
-                13.0827° N, 80.2707° E
+                CONCEPT REGION · COROMANDEL SEABOARD
               </span>
-              <span className="text-surface-variant">·</span>
-              <span className="shrink-0">COROMANDEL SEABOARD</span>
             </div>
           </div>
         </BlurFade>

@@ -28,24 +28,24 @@ export const RESIDENCES: Residence[] = [
     level: "GROUND LEVEL",
     name: "Garden Residence",
     tagline: "4 En-Suite Suites · Sunken Travertine Court",
-    totalArea: "5,400 SQ. FT. (501.6 M²)",
-    interiorArea: "3,750 SQ. FT.",
-    outdoorArea: "1,650 SQ. FT.",
-    ceilingClearance: "3.60 METERS (11.8 FT)",
-    orientation: "08° NORTH-BY-NORTHEAST",
+    totalArea: "~5,400 SQ. FT. (ILLUSTRATIVE)",
+    interiorArea: "~3,750 SQ. FT.",
+    outdoorArea: "~1,650 SQ. FT.",
+    ceilingClearance: "EXPANSIVE CEILING PROPORTIONS",
+    orientation: "EAST-WEST MARITIME AXIS",
     accommodations: "4 En-Suite Suites",
     description:
       "Focused on immersive indoor-outdoor tranquility, private plunge pools, and mature frangipani botanical courtyards bringing greenery into every bathroom and living suite.",
     detailedBlueprintDesc:
-      "Oriented on a direct East-West axis capturing ocean thermal drafts. Expansive deep-set loggias shade the interior from direct tropical heat while preserving continuous sightlines to the plunge court.",
+      "Oriented on an East-West axis capturing ocean thermal drafts. Expansive deep-set loggias shade the interior from direct coastal heat while preserving continuous sightlines to the plunge court.",
     heroImage:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuC8cTC6scnAYVLcNlt_suaQHwK8eBTJgPjgb1-rtiJUoC9BWSjyXJ2spY8KsfBJOxQQb_BbDYKWBMS7YJTpxVwkjxioB8_EYHn5r9S4bJyc3ggtRgcc81AQrKshPkDvwzdUdW3w61mpFCiYijmz-g2sJVyLbxvWkaRi-SzIbaN1DYNPYXsO1rnjOHVOa8Ysaw-qrpo8FJPwhDfOiqSgHB_vERO3rONLOXXbaSrCGxxiA2GQD-Hm6ASYcg",
     altText:
       "Modernist garden villa opening directly onto a private sunken travertine courtyard with plunge pool, lush tropical ferns, warm wood louvres, and ambient concealed evening garden illumination.",
     specs: [
-      { label: "Private Lap Pool", value: "12m × 3.5m" },
-      { label: "Courtyard Footprint", value: "1,650 SQ. FT." },
-      { label: "Parking Capacity", value: "3 Executive Bays" },
+      { label: "Plunge Courtyard", value: "Private Travertine Court" },
+      { label: "Outdoor Realm", value: "Landscaped Garden Living" },
+      { label: "Vehicular Access", value: "Subterranean Portico" },
     ],
   },
   {
@@ -54,25 +54,25 @@ export const RESIDENCES: Residence[] = [
     level: "LEVELS 02 – 03",
     name: "Signature Residence",
     tagline: "5 Bedrooms + Grand Double-Height Salon",
-    totalArea: "6,800 SQ. FT. (631.7 M²)",
-    interiorArea: "5,100 SQ. FT.",
-    outdoorArea: "1,700 SQ. FT.",
-    ceilingClearance: "7.20 METERS SALON VOID",
-    orientation: "12° NORTH-BY-NORTHEAST",
+    totalArea: "~6,800 SQ. FT. (ILLUSTRATIVE)",
+    interiorArea: "~5,100 SQ. FT.",
+    outdoorArea: "~1,700 SQ. FT.",
+    ceilingClearance: "DOUBLE-HEIGHT SALON VOID",
+    orientation: "NORTH-EAST COASTAL AXIS",
     accommodations: "5 Bedrooms + Salon",
     isFlagship: true,
     description:
-      "Centered on extraordinary volumetric scale: 7-meter high central grand salon, temperature-regulated wine pavilion, and curated art gallery corridors with museum-grade illumination.",
+      "Centered on extraordinary volumetric scale: dramatic double-height central grand salon, temperature-regulated wine pavilion, and curated art gallery corridors with museum-grade illumination.",
     detailedBlueprintDesc:
-      "A celebration of vertical scale. The 7.2m salon void creates dramatic natural chimney ventilation, keeping common entertaining areas cool naturally throughout Chennai afternoons.",
+      "A celebration of vertical scale. The double-height salon void creates natural convective ventilation, keeping entertaining areas naturally tempered throughout coastal afternoons.",
     heroImage:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuAX6BE4o1xf4gWIIyDwbUExLvbpit9SzxQfCA8YbfHgYrG6FqmjPxfvf9UPvFZNhmLIYLb9KNtcFTmSANZ0vuAcMgyTs7_dn9xSxi_pPwPdTEUVeMTfOSq9kg0-oKbC_8a88iVCDTykTbvnGJnrcdtQZ2DFk7a1jKlEt_uLhcIEy_-7QOr96C6h2jTIyfJ_HFuVV6eMkiKZeV59rM80GO59mYh2cpU1vjcWEZYq70uyBjQEj7PADOVhLw",
     altText:
       "Double height luxury salon residence with monumental glass facade, floating sculptural marble staircase, bespoke brass wine pavilion, and warm indirect architectural cove lighting.",
     specs: [
-      { label: "Ceiling Void", value: "7.2m Double Height" },
-      { label: "Wine Sommelier Cellar", value: "450 Bottles" },
-      { label: "Staff Quarters", value: "2 En-Suite Units" },
+      { label: "Central Volume", value: "Double-Height Grand Salon" },
+      { label: "Sommelier Feature", value: "Curated Tasting Pavilion" },
+      { label: "Service Program", value: "Dedicated Support Quarters" },
     ],
   },
   {
@@ -81,24 +81,24 @@ export const RESIDENCES: Residence[] = [
     level: "PENTHOUSE PINNACLE",
     name: "Sky Residence",
     tagline: "Penthouse Duplex · Cantilevered Sky Deck",
-    totalArea: "8,200 SQ. FT. (761.8 M²)",
-    interiorArea: "6,100 SQ. FT.",
-    outdoorArea: "2,100 SQ. FT. SKY DECK",
-    ceilingClearance: "4.10 METERS VAULTED",
-    orientation: "360° MARITIME PANORAMA",
+    totalArea: "~8,200 SQ. FT. (ILLUSTRATIVE)",
+    interiorArea: "~6,100 SQ. FT.",
+    outdoorArea: "~2,100 SQ. FT. SKY DECK",
+    ceilingClearance: "VAULTED HORIZON VOLUMES",
+    orientation: "PANORAMIC SEABOARD SWEEP",
     accommodations: "Penthouse Duplex",
     description:
-      "Elevated penthouse sanctuary emphasizing panoramic sea vistas, 2,100 sq.ft cantilevered terrace deck, private glass lift, and master spa pavilion with cedar sauna.",
+      "Elevated penthouse sanctuary emphasizing panoramic sea vistas, cantilevered terrace deck, private core access lift, and master spa pavilion with cedar sauna.",
     detailedBlueprintDesc:
-      "The pinnacle address offering an uninterrupted 270-degree Coromandel ocean sweep. Cantilevered deck structures provide dramatic shadow play and outdoor culinary spaces.",
+      "The pinnacle address offering an uninterrupted Coromandel ocean sweep. Cantilevered deck structures provide dramatic shadow play and outdoor culinary spaces.",
     heroImage:
       "https://lh3.googleusercontent.com/aida-public/AB6AXuDEOKFwxHMBnt0sNA_aG2jo6cfkcoDJTCql_TeELFa8ctG764JfHtgnz8RoIk7-OqtyikOVvMUHKOOPRxrfeN8PZw48eV8otba34AtGre9A96FXEXQqbXKAC62WV1y1OSdK6L8isNACXSh9hx9_yykPKzLAzaiPSGFAifK6uUSub8ag0Eb-RnMWmO7l5qtL4_0_W8T8BH_u3RP0Ag42X4lolr0IPV5497KDusRvA4Gto_V4vM0KJjQ0kQ",
     altText:
       "Luxury modern penthouse sky deck overlooking the coastal horizon, featuring an outdoor fireplace, sunken stone seating lounge, infinity plunge pool, and floor to ceiling glass balustrades.",
     specs: [
-      { label: "Private Sky Deck", value: "2,100 SQ. FT." },
-      { label: "Private Elevators", value: "Dedicated Dual-Car" },
-      { label: "Thermal Suite", value: "Sauna + Cold Plunge" },
+      { label: "Sky Terrace", value: "Cantilevered Horizon Deck" },
+      { label: "Lift Core", value: "Direct Private Core Access" },
+      { label: "Thermal Sanctuary", value: "Cedar Sauna & Vitality Spa" },
     ],
   },
 ];
@@ -120,8 +120,8 @@ export const DESIGN_PRINCIPLES: DesignPrinciple[] = [
     title: "Space",
     description:
       "Volumetric generosity designed to breathe. Floor-to-ceiling unconstrained thresholds and fluid open vistas dissolve boundary lines between salon and garden.",
-    metaLeft: "Height: 3.6m – 7.2m",
-    metaRight: "Axis: Cardinal",
+    metaLeft: "Volumetric Voids",
+    metaRight: "Cardinal Axis",
     iconName: "Maximize2",
   },
   {
@@ -130,8 +130,8 @@ export const DESIGN_PRINCIPLES: DesignPrinciple[] = [
     title: "Light",
     description:
       "Sculpted solar pathways, high clerestory glazing, and gentle diffused morning illumination engineered to illuminate without thermal penalty.",
-    metaLeft: "Low-E Glazing",
-    metaRight: "Solar Fins",
+    metaLeft: "Diffused Glazing",
+    metaRight: "Solar Shading",
     iconName: "Sun",
   },
   {
@@ -140,7 +140,7 @@ export const DESIGN_PRINCIPLES: DesignPrinciple[] = [
     title: "Material",
     description:
       "Tactile authenticity celebrating raw honed limestone, blackened architectural steel, acoustic wall panels, and aged brushed bronze joinery.",
-    metaLeft: "Quarried Stone",
+    metaLeft: "Honed Stone",
     metaRight: "Brushed Bronze",
     iconName: "Layers",
   },
@@ -149,8 +149,8 @@ export const DESIGN_PRINCIPLES: DesignPrinciple[] = [
     category: "SOVEREIGNTY",
     title: "Privacy",
     description:
-      "Triple-layer acoustic decoupling, deep recessed courtyard geometries, and secluded inner sanctums secluded from both neighbor and streetscape.",
-    metaLeft: "STC 58 Acoustic",
+      "Acoustic decoupling, deep recessed courtyard geometries, and secluded inner sanctums secluded from both neighbor and streetscape.",
+    metaLeft: "Acoustic Decoupling",
     metaRight: "Buffered Perimeter",
     iconName: "Shield",
   },
@@ -237,66 +237,66 @@ export const AMENITIES: Amenity[] = [
     title: "Thermal Wellness Spa",
     description:
       "Finnish dry cedar sauna, eucalyptus-infused steam suite, and chilled stone plunge pools designed for circadian contrast therapy.",
-    tag: "Private Resident Access · 24 Hours",
+    tag: "Concept Spa Suite",
   },
   {
     id: "pool",
     icon: "Waves",
-    title: "25-Meter Heated Lap Pool",
+    title: "Architectural Lap Pool",
     description:
-      "Ozone-purified freshwater lap facility framed by sheltered stone colonnades and sunken private sunning daybeds.",
-    tag: "Year-Round Temperature Controlled",
+      "Freshwater lap facility framed by sheltered stone colonnades and sunken private sunning daybeds.",
+    tag: "Concept Wellness Program",
   },
   {
     id: "wine",
     icon: "Wine",
-    title: "Sommelier Wine Vault",
+    title: "Curated Wine Vault",
     description:
-      "Private climate-zoned cellar bays allocated to every estate residence, complete with an intimate private tasting salon.",
-    tag: "Dual-Zone Humidity Regulation",
+      "Temperature-calibrated cellar storage integrated into the residential program with an intimate tasting salon.",
+    tag: "Resident Wine Program",
   },
   {
     id: "cinema",
     icon: "Clapperboard",
     title: "Private Screening Salon",
     description:
-      "Dolby Atmos acoustic certification with custom cashmere-upholstered reclining banquettes and direct sommelier pantry service.",
-    tag: "14-Seat Private Auditorium",
+      "Acoustically calibrated screening salon with custom upholstered banquettes and integrated audiovisual architecture.",
+    tag: "Private Resident Screening",
   },
   {
     id: "valet",
     icon: "Car",
-    title: "Dedicated Estate Valet",
+    title: "Subterranean Estate Arrival",
     description:
-      "Discreet white-glove logistics, secure subterranean EV charging infrastructure, private aviation ground transfer handling, and parcels vault.",
-    tag: "Bespoke Concierge Protocol",
+      "Discreet underground vehicular access, EV infrastructure integration, and dedicated resident reception.",
+    tag: "Private Portico Access",
   },
   {
     id: "security",
     icon: "ShieldCheck",
-    title: "Sovereign Security Ring",
+    title: "Perimeter Privacy Architecture",
     description:
-      "Multi-tiered biometric access control, optical perimeter sensors, and an independently powered emergency operations sanctuary.",
-    tag: "Grade-A Decoupled Security",
+      "Thoughtfully integrated architectural sightline buffers, controlled access points, and discreet perimeter landscaping.",
+    tag: "Gated Privacy Architecture",
   },
 ];
 
 export const CONNECTIVITY_ITEMS = [
   {
-    destination: "Chennai International Airport (Private Terminal)",
-    duration: "25 MINS",
-  },
-  {
-    destination: "The Madras Club & Boat Club Enclave",
-    duration: "14 MINS",
-  },
-  {
     destination: "Coromandel Coastal Shoreline",
-    duration: "03 MINS (WALK)",
+    duration: "IMMEDIATE MARITIME BUFFER",
   },
   {
-    destination: "Apollo Speciality Healthcare Hub",
-    duration: "18 MINS",
+    destination: "Historic Cultural & Diplomatic Enclaves",
+    duration: "REGIONAL ARTERIAL LINK",
+  },
+  {
+    destination: "Metropolitan International Airport",
+    duration: "PRIMARY TRANSIT CORRIDOR",
+  },
+  {
+    destination: "Specialist Medical & Wellness Hub",
+    duration: "URBAN ARTERIAL ACCESS",
   },
 ];
 
@@ -327,7 +327,7 @@ export const PROMENADE_HOTSPOTS: Hotspot[] = [
     title: "Limestone Cantilever",
     subtitle: "Feature 02",
     description:
-      "A 4.8-meter post-tensioned travertine overhang creates deep solar shading for lower-level salons during coastal mid-day glare.",
+      "An engineered post-tensioned travertine overhang creates deep solar shading for lower-level salons during coastal mid-day glare.",
     top: "42%",
     left: "62%",
   },

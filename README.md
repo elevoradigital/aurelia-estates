@@ -2,7 +2,7 @@
 > **"Exceptional Spaces. Extraordinary Living."**
 > Coromandel Seaboard, Chennai · 13.0827° N, 80.2707° E
 
-A bespoke digital experience and architectural portfolio for **Aurelia Estates**, a limited collection of contemporary residences created by **Elevora Architectural Realty**.
+A bespoke digital experience and architectural portfolio for **Aurelia Estates**, a limited conceptual study of contemporary residences created by **Elevora — Digital Growth Studio**.
 
 Translated from the Google Stitch design system and elevated with selective **Magic UI** motion design, creating a refined, cinematic web experience embodying **Quiet Architectural Precision**.
 
@@ -32,8 +32,8 @@ Magic UI components have been integrated with architectural restraint:
    - Controlled word-by-word reveal for the flagship hero headline (*"Exceptional spaces. Extraordinary living."*) with dignified cubic-bezier easing.
 4. **[`ShineBorder`](src/components/magicui/shine-border.tsx)**:
    - A low-intensity, sweeping metallic border in soft bronze and limestone tones (`#A38A69`, `#fcdeb8`) highlighting the currently active residence card and the CAD technical blueprint canvas.
-5. **[`NumberTicker`](src/components/magicui/number-ticker.tsx)**:
-   - Precision spring-animated counter for the architectural manifesto metrics (`100%` Stone, `3.8m` Ceilings, `360°` Orientation).
+5. **Refined Non-Numeric Materiality Statements**:
+   - Replaced fragile numeric counters with literary architectural statements on natural materiality, volumetric scale, and daylight orientation.
 6. **Architectural Specimen Lightbox**:
    - An interactive specimen viewer for the materials mosaic with keyboard navigation (`Esc`, `ArrowLeft`, `ArrowRight`) and zoom inspection.
 
@@ -45,7 +45,7 @@ Magic UI components have been integrated with architectural restraint:
 | :--- | :--- | :--- |
 | **01. Navigation** | [`Header.tsx`](src/components/Header.tsx) | Aurelia wordmark, folio locator, desktop links, private viewing CTA, mobile sliding drawer |
 | **02. Hero** | [`Hero.tsx`](src/components/Hero.tsx) | `TextAnimate` headline entrance, coordinates, monolithic cantilever photography with `BlurFade`, calipers spec badge |
-| **03. Architectural Manifesto** | [`ArchitecturalManifesto.tsx`](src/components/ArchitecturalManifesto.tsx) | *"A Place to Come Home To"*, design thesis callout, oversized quote, `NumberTicker` metrics |
+| **03. Architectural Manifesto** | [`ArchitecturalManifesto.tsx`](src/components/ArchitecturalManifesto.tsx) | *"A Place to Come Home To"*, design thesis callout, oversized quote, refined materiality statements |
 | **04. Design Principles** | [`DesignPrinciples.tsx`](src/components/DesignPrinciples.tsx) | Four pillars: Space, Light, Material, Privacy staggered with `BlurFade` |
 | **05. Find Your Place** | [`ResidenceShowcase.tsx`](src/components/ResidenceShowcase.tsx) | Garden (5,400 sq.ft), Signature (6,800 sq.ft), Sky (8,200 sq.ft) with `ShineBorder` active selection |
 | **06. Blueprint Suite** | [`BlueprintViewer.tsx`](src/components/BlueprintViewer.tsx) | High-contrast dark CAD interface, `ShineBorder` drafting frame, interactive SVG drawings, calipers toggle, enlargement modal |

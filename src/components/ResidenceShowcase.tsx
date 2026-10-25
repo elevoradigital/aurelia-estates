@@ -72,9 +72,9 @@ export const ResidenceShowcase: React.FC<ResidenceShowcaseProps> = ({
               </h2>
             </div>
             <p className="font-sans text-body-md text-on-surface-variant max-w-lg">
-              Three distinctive spatial archetypes meticulously oriented around
-              landscape courtyards, reflecting pools, and unobstructed skyline
-              horizons.
+              Three distinctive spatial archetypes explored as conceptual layout
+              studies — oriented around landscape courtyards, reflecting pools,
+              and horizon light.
             </p>
           </div>
         </BlurFade>
@@ -123,8 +123,8 @@ export const ResidenceShowcase: React.FC<ResidenceShowcaseProps> = ({
                   <div className="absolute top-4 left-4 bg-primary text-on-primary font-mono text-label-technical px-space-xs py-1 uppercase tracking-widest text-[10px]">
                     {residence.number} · {residence.level}
                   </div>
-                  <div className="absolute bottom-4 right-4 bg-surface/90 backdrop-blur-md px-3 py-1 font-mono text-label-technical text-primary uppercase tracking-wider text-[11px] border border-surface-variant/40">
-                    {residence.totalArea.split(" (")[0]}
+                  <div className="absolute bottom-4 right-4 bg-surface/90 backdrop-blur-md px-3 py-1 font-mono text-label-technical text-primary uppercase tracking-wider text-[10px] border border-surface-variant/40">
+                    {residence.totalArea}
                   </div>
                 </div>
 

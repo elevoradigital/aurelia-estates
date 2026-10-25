@@ -132,9 +132,9 @@ export async function POST(request: Request) {
           body: JSON.stringify({
             from: emailFrom,
             to: [contactEmail],
-            subject: `[Aurelia Estates Enquiry] ${refCode} - ${name.trim()}`,
+            subject: `[Aurelia Estates Concept Inquiry] ${refCode} - ${name.trim()}`,
             html: `
-              <h2>Aurelia Estates — Private Viewing Request</h2>
+              <h2>Aurelia Estates — Concept Consultation Request</h2>
               <p><strong>Reference:</strong> ${refCode}</p>
               <p><strong>Name:</strong> ${name.trim()}</p>
               <p><strong>Email:</strong> ${email.trim()}</p>
@@ -143,7 +143,7 @@ export async function POST(request: Request) {
               <p><strong>Preferred Protocol:</strong> ${protocol || "phone"}</p>
               <p><strong>Notes:</strong> ${notes?.trim() || "None provided"}</p>
               <hr />
-              <p><small>Aurelia Estates / Elevora Architectural Realty Concept</small></p>
+              <p><small>Aurelia Estates / Elevora Digital Design Portfolio</small></p>
             `,
           }),
         });
@@ -161,29 +161,8 @@ export async function POST(request: Request) {
       }
     }
 
-    // 6. Durable File-Based Ledger Persistence
-    const inquiryRecord = {
-      refId: refCode,
-      receivedAt: new Date().toISOString(),
-      client: {
-        name: name.trim(),
-        email: email.trim(),
-        phone: phone.trim(),
-      },
-      spatialPreferences: {
-        typology,
-        protocol: protocol || "phone",
-        notes: notes?.trim() || null,
-      },
-      delivery: {
-        persistedDurable: true,
-        emailConfigured: Boolean(resendApiKey),
-        emailDispatched: emailSent,
-        emailError: emailErrorDetails,
-      },
-      originIp: ip,
-    };
-
+    // 6. File-Based Ledger Persistence
+    let filePersisted = false;
     try {
       await fs.mkdir(path.dirname(INQUIRIES_FILE_PATH), { recursive: true });
       let existingInquiries = [];
@@ -195,33 +174,56 @@ export async function POST(request: Request) {
         existingInquiries = [];
       }
 
+      const inquiryRecord = {
+        refId: refCode,
+        receivedAt: new Date().toISOString(),
+        client: {
+          name: name.trim(),
+          email: email.trim(),
+          phone: phone.trim(),
+        },
+        spatialPreferences: {
+          typology,
+          protocol: protocol || "phone",
+          notes: notes?.trim() || null,
+        },
+        delivery: {
+          persistedDurable: true,
+          emailConfigured: Boolean(resendApiKey),
+          emailDispatched: emailSent,
+          emailError: emailErrorDetails,
+        },
+        originIp: ip,
+      };
+
       existingInquiries.push(inquiryRecord);
       await fs.writeFile(
         INQUIRIES_FILE_PATH,
         JSON.stringify(existingInquiries, null, 2),
         "utf-8"
       );
+      filePersisted = true;
     } catch (fsErr) {
-      console.error("[AURELIA ENQUIRY] File persistence error:", fsErr);
-      // We log but continue to return the reference code if possible
+      console.warn("[AURELIA ENQUIRY] File persistence notice (expected in read-only serverless host):", fsErr);
+      filePersisted = false;
     }
 
     // Honest delivery feedback to the client
     const deliveryFeedback = emailSent
-      ? "Your private viewing request has been recorded and dispatched to the advisory team inbox."
-      : resendApiKey
-      ? "Your request has been durably archived in the registry. Direct email delivery is queued for manual processing."
-      : "Your request has been durably recorded in our server inquiry ledger. (Note: External transactional email is not configured in this environment).";
+      ? "Your inquiry has been recorded and transmitted directly to the Elevora studio inbox."
+      : filePersisted
+      ? "Your consultation inquiry has been recorded in the local demonstration ledger. (Elevora portfolio study mode)."
+      : "Inquiry received in demonstration mode. (Note: Serverless filesystem is ephemeral, and transactional email is pending host configuration).";
 
     return NextResponse.json({
       success: true,
       refId: refCode,
       message: deliveryFeedback,
       delivery: {
-        persistedDurable: true,
+        persistedDurable: filePersisted,
         emailConfigured: Boolean(resendApiKey),
         emailDispatched: emailSent,
-        emailError: emailErrorDetails ? "Email dispatch warning (archived locally)" : null,
+        emailError: emailErrorDetails ? "Email dispatch warning (logged in demonstration mode)" : null,
       },
       details: {
         typology,

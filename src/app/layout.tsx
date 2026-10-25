@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     "Contemporary Residences",
     "Modernist Villa Portfolio",
   ],
-  authors: [{ name: "Elevora Architectural Studio" }],
+  authors: [{ name: "Elevora — Digital Growth & Design Studio" }],
   alternates: {
     canonical: "/",
   },
@@ -76,7 +76,7 @@ const structuredData = {
   name: "Aurelia Estates",
   creator: {
     "@type": "Organization",
-    name: "Elevora Architectural Studio",
+    name: "Elevora — Digital Growth & Design Studio",
   },
   description:
     "An architectural portfolio concept exploring contemporary residential design along the Coromandel Seaboard.",

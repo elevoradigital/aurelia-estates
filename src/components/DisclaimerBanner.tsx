@@ -10,12 +10,11 @@ export const DisclaimerBanner: React.FC = () => {
         <div className="flex items-center gap-space-xs">
           <Compass className="w-4 h-4 text-secondary shrink-0" />
           <span className="font-mono text-label-technical text-on-surface-variant uppercase tracking-widest text-[11px]">
-            AURELIA ESTATES IS AN ARCHITECTURAL CONCEPT PROJECT PRESENTED BY
-            ELEVORA.
+            AURELIA ESTATES IS A DIGITAL ARCHITECTURAL CONCEPT PORTFOLIO DEVELOPED BY ELEVORA.
           </span>
         </div>
         <span className="font-mono text-label-technical text-outline uppercase tracking-wider text-[11px]">
-          ALL PLANS, AREAL METRICS, AND FINISHES ARE ARTISTICALLY ILLUSTRATIVE.
+          ALL PLANS, DIMENSIONS, AND FINISHES ARE ARTISTICALLY ILLUSTRATIVE.
         </span>
       </div>
     </section>

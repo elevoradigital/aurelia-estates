@@ -2,7 +2,6 @@
 
 import React from "react";
 import { BlurFade } from "@/components/magicui/blur-fade";
-import { NumberTicker } from "@/components/magicui/number-ticker";
 import { TextAnimate } from "@/components/magicui/text-animate";
 
 export const ArchitecturalManifesto: React.FC = () => {
@@ -34,17 +33,17 @@ export const ArchitecturalManifesto: React.FC = () => {
                   Design Thesis
                 </span>
                 <p className="font-sans text-body-sm text-on-surface-variant leading-relaxed">
-                  Every home designed under Elevora rejects synthetic trend
-                  cycles. We construct tactile heirlooms rooted in thermal
-                  comfort, maritime breeze cross-ventilation, and raw geological
-                  honesty.
+                  Every conceptual study developed by Elevora explores tactile
+                  architectural permanence — balancing thermal comfort, coastal
+                  cross-ventilation, and raw geological authenticity in digital
+                  spatial design.
                 </p>
               </div>
             </BlurFade>
 
             <BlurFade delay={0.3} yOffset={6}>
               <div className="font-mono text-[10px] uppercase tracking-widest text-outline">
-                AURELIA ESTATES PHILOSOPHY · ARCHIVE REF: AE-2025
+                AURELIA ESTATES CONCEPT · ARCHIVE REF: AE-2026
               </div>
             </BlurFade>
           </div>
@@ -63,27 +62,27 @@ export const ArchitecturalManifesto: React.FC = () => {
             <BlurFade delay={0.4} yOffset={8}>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-space-md pt-space-lg border-t border-surface-variant">
                 <div>
-                  <span className="font-serif text-3xl lg:text-headline-sm text-primary block font-medium">
-                    <NumberTicker value={100} delay={0.3} />%
+                  <span className="font-serif text-2xl lg:text-3xl text-primary block font-normal mb-1">
+                    Natural Materiality
                   </span>
-                  <span className="font-mono text-label-technical uppercase tracking-wider text-on-surface-variant">
-                    Quarried Natural Stone
-                  </span>
-                </div>
-                <div>
-                  <span className="font-serif text-3xl lg:text-headline-sm text-primary block font-medium">
-                    <NumberTicker value={3.8} decimalPlaces={1} delay={0.4} />m
-                  </span>
-                  <span className="font-mono text-label-technical uppercase tracking-wider text-on-surface-variant">
-                    Uninterrupted Ceiling Voids
+                  <span className="font-mono text-label-technical uppercase tracking-wider text-on-surface-variant block text-xs">
+                    Quarried stone &amp; honed textures
                   </span>
                 </div>
                 <div>
-                  <span className="font-serif text-3xl lg:text-headline-sm text-primary block font-medium">
-                    <NumberTicker value={360} delay={0.5} />°
+                  <span className="font-serif text-2xl lg:text-3xl text-primary block font-normal mb-1">
+                    Volumetric Scale
                   </span>
-                  <span className="font-mono text-label-technical uppercase tracking-wider text-on-surface-variant">
-                    Passive Solar Orientation
+                  <span className="font-mono text-label-technical uppercase tracking-wider text-on-surface-variant block text-xs">
+                    Uninterrupted vertical voids &amp; light
+                  </span>
+                </div>
+                <div>
+                  <span className="font-serif text-2xl lg:text-3xl text-primary block font-normal mb-1">
+                    Sculpted Daylight
+                  </span>
+                  <span className="font-mono text-label-technical uppercase tracking-wider text-on-surface-variant block text-xs">
+                    Orchestrated coastal solar orientation
                   </span>
                 </div>
               </div>

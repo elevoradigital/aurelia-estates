@@ -18,38 +18,48 @@ export const LocationSection: React.FC = () => {
             <BlurFade delay={0.1} yOffset={8}>
               <div>
                 <span className="font-mono text-label-technical text-secondary uppercase tracking-[0.2em] block mb-space-xs">
-                  The Enclave
+                  Conceptual Setting · Geographic Study
                 </span>
                 <h2 className="font-serif text-3xl lg:text-headline-lg text-primary tracking-tight font-normal">
                   Connected to What Matters
                 </h2>
               </div>
               <p className="font-sans text-body-md text-on-surface-variant leading-relaxed">
-                Perched along the serene Coromandel maritime corridor in Chennai,
-                Aurelia Estates affords unobstructed coastal sea breezes, proximate
-                access to elite diplomatic enclaves, and absolute privacy behind
-                private entry gates.
+                Aurelia Estates is conceptually envisioned along the serene
+                Coromandel maritime corridor, exploring how coastal ocean breezes,
+                thoughtful solar orientation, and secluded perimeter buffering
+                harmonize with contemporary architectural living.
               </p>
             </BlurFade>
 
             {/* Connectivity Table */}
             <BlurFade delay={0.2} yOffset={8}>
-              <div className="space-y-space-sm pt-space-md border-t border-surface-variant">
-                {CONNECTIVITY_ITEMS.map((item, idx) => (
-                  <div
-                    key={idx}
-                    className={`flex items-center justify-between py-2.5 font-mono text-label-technical uppercase text-xs ${
-                      idx < CONNECTIVITY_ITEMS.length - 1
-                        ? "border-b border-surface-variant/60"
-                        : ""
-                    }`}
-                  >
-                    <span className="text-on-surface-variant">
-                      {item.destination}
-                    </span>
-                    <span className="text-primary font-bold">{item.duration}</span>
-                  </div>
-                ))}
+              <div className="pt-space-md border-t border-surface-variant">
+                <div className="flex items-center justify-between pb-2 mb-2 border-b border-surface-variant/40">
+                  <span className="font-mono text-[10px] text-secondary uppercase tracking-widest">
+                    Illustrative Regional Context
+                  </span>
+                  <span className="font-mono text-[10px] text-outline uppercase tracking-wider">
+                    Access Study
+                  </span>
+                </div>
+                <div className="space-y-space-sm">
+                  {CONNECTIVITY_ITEMS.map((item, idx) => (
+                    <div
+                      key={idx}
+                      className={`flex items-center justify-between py-2.5 font-mono text-label-technical uppercase text-xs ${
+                        idx < CONNECTIVITY_ITEMS.length - 1
+                          ? "border-b border-surface-variant/60"
+                          : ""
+                      }`}
+                    >
+                      <span className="text-on-surface-variant">
+                        {item.destination}
+                      </span>
+                      <span className="text-primary font-bold">{item.duration}</span>
+                    </div>
+                  ))}
+                </div>
               </div>
             </BlurFade>
           </div>
@@ -78,20 +88,20 @@ export const LocationSection: React.FC = () => {
                   <div className="flex items-center gap-1.5 mb-1">
                     <MapPin className="w-3.5 h-3.5 text-secondary" />
                     <span className="font-mono text-label-technical text-secondary uppercase tracking-widest text-[10px]">
-                      Aurelia Sanctuary
+                      Conceptual Portfolio Site
                     </span>
                   </div>
                   <h4 className="font-serif text-title-editorial text-primary mb-1 font-medium">
-                    Seaward Road Corridor
+                    Coromandel Coastal Study
                   </h4>
                   <p className="font-sans text-body-sm text-on-surface-variant leading-relaxed">
-                    Private gated access off the coastal arterial, buffered by
-                    mature maritime casuarina groves.
+                    Illustrative maritime setting demonstrating environmental site
+                    integration, solar orientation, and landscape privacy buffering.
                   </p>
                   <div className="mt-3 pt-2 border-t border-surface-variant/40 flex items-center justify-between font-mono text-[10px] text-outline uppercase tracking-wider">
-                    <span>13.0827° N, 80.2707° E</span>
+                    <span>13.08° N, 80.27° E</span>
                     <span className="flex items-center gap-1 text-secondary">
-                      <Navigation className="w-3 h-3" /> Chennai Coast
+                      <Navigation className="w-3 h-3" /> Regional Study
                     </span>
                   </div>
                 </div>
